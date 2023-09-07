@@ -5,7 +5,7 @@ import SuperQuality from "./SuperQuality";
 import Footer from "./Footer";
 import Subscribe from "./Subscribe";
 import Services from "./Services";
-import SpecialOffer from "./SpecialOffer"
+import SpecialOffer from "./SpecialOffer";
 
 
 export default {

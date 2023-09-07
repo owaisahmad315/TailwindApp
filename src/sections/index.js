@@ -8,7 +8,7 @@ import Services from "./Services";
 import SpecialOffer from "./SpecialOffer";
 
 
-export default {
+export {
     Hero,
     CustomerReviews,
     SuperQuality,

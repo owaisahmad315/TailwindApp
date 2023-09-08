@@ -1,7 +1,12 @@
  
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <section id="home" className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container">
+      <div className="w-full xl:w-2/5 flex flex-col justify-center items-start max-xl:padding-x pt-28">
+        <p>Our Summer Collection</p>
+        
+      </div>
+    </section>
   )
 }
 

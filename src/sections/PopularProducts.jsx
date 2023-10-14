@@ -1,5 +1,5 @@
  import { products } from "../constants";
-import { PopularProductCard } from "../components/PopularProductCard";
+import PopularProductCard  from "../components/PopularProductCard";
 
  const PopularProducts = () => {
   return (
@@ -20,10 +20,7 @@ import { PopularProductCard } from "../components/PopularProductCard";
        sm:grid-cols-2 grid-cols-1
         sm:gap-6 gap-14">
           {products.map((product) =>(
-            <PopularProductCard
-              key={product.name}
-              {...product}
-            />
+           <PopularProductCard key={product.name} {...product} />
           ))}
       </div>
 
